@@ -13,7 +13,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or (function()
 end);
 
 local ScreenGui = Instance.new('ScreenGui');
-ScreenGui.Name == 'Mercury'
+ScreenGui.Name = 'Mercury'
 ProtectGui(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
